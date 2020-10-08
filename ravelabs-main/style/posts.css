@@ -1,0 +1,87 @@
+.posts {
+  width: 960px;
+  margin: auto;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.post {
+  margin-top: 20px;
+  display: flex;
+  width: 305px;
+  height: 175px;
+  background: #38312c;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.3171px;
+  line-height: 14px;
+  flex-wrap: wrap;
+  align-content: space-around;
+
+  cursor: pointer;
+  transition: 0.03s ease-out;
+}
+
+.post:hover {
+  margin-top: 8px;
+  transition: 0.02s ease-in;
+}
+
+.post_info {
+  margin-top: 0px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.vector-wrap {
+  margin-top: -6px;
+  display: flex;
+}
+
+.post-views {
+  padding-left: 10px;
+}
+
+.post-date {
+  margin-top: 0px;
+}
+
+.post_title {
+  margin-top: 50px;
+
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.post_title p {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.3171px;
+  line-height: 14px;
+  color: #f3f3f2;
+}
+
+.posts-vector {
+  margin-top: 2px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  width: 16px;
+  height: 13px;
+  background: url(../img/eye-vector.png);
+  background-repeat: no-repeat;
+}

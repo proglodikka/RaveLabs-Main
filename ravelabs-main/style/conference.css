@@ -1,0 +1,68 @@
+.conferences {
+  width: 880px;
+  height: 260px;
+  margin: auto;
+  margin-top: 41px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.conference {
+  display: flex;
+  width: 240px;
+  height: 105px;
+  cursor: pointer;
+}
+
+.conference-logo-wrap {
+  width: 105px;
+  height: 105px;
+  background-color: #38312c;
+  border-radius: 9px;
+}
+
+.conference-logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 12.5px;
+  margin-top: 12.5px;
+  background: url(../img/conference-vector.png);
+  background-repeat: no-repeat;
+}
+
+.conference-info {
+  width: 100px;
+  height: 25px;
+  padding-left: 16px;
+  padding-top: 40px;
+}
+
+.conference-title {
+  margin: 0;
+  /* padding-left: 16px; */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11.3171px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #38312c;
+}
+
+.conference-date {
+  margin: 0;
+  /* padding-left: 16px; */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11.3171px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #38312c;
+}
